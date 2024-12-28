@@ -119,3 +119,7 @@ aside > div > button {
   font-size: 1rem;
   padding: 1rem 3rem;
 }
+/* women-slide */
+.women-slide {
+  background-image: url(../static/images/backgroundImage/woman-slide.webp);
+}
