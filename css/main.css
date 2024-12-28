@@ -123,3 +123,68 @@ aside > div > button {
 .women-slide {
   background-image: url(../static/images/backgroundImage/woman-slide.webp);
 }
+/* footer */
+footer {
+  background-color: var(--color-black--);
+  color: var(--color-white--);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+  margin: 0;
+}
+footer > div {
+  width: 10%;
+}
+footer > div > button {
+  background-color: var(--color-4--);
+  color: var(--color-white--);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-left: -2rem;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0 4rem 4rem 0;
+  transition: 0.5s;
+}
+footer > div > button:hover {
+  margin-left: 0;
+  border-radius: 4rem;
+}
+footer > article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 1rem;
+}
+footer > article h1 {
+  text-transform: capitalize;
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+footer > article > nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+footer > article > nav a {
+  color: var(--color-white--);
+  text-decoration: none;
+  padding: 0.5rem 0;
+}
+footer > figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin: 0;
+}
+footer > figure > img {
+  width: 65%;
+  opacity: 0.5;
+}
